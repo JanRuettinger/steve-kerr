@@ -2,6 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import { Todos } from '../../apilib/TodosClass';
 import Cors from 'cors';
 import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
+import axios from 'axios';
 
 const cors = Cors({
     methods: ['POST', 'GET', 'HEAD', 'OPTIONS'],
@@ -27,13 +28,20 @@ export default async function POST(req: NextApiRequest, res: NextApiResponse) {
     await runMiddleware(req, res, cors);
     const body = req.body;
     console.log(body);
-    // Todos.createTodo(body);
-    // return res.send(200);
-    return res.json({
-        advice: 'You are awesome',
+
+    const response = await axios({
+        method: 'post',
+        url: 'http://10.1.60.155:5001/answer',
+        data: {
+            question: body.question,
+            conversation_history: '',
+            session_id: 1,
+        },
     });
+    console.log(response);
 
-    // Question
-
-    // Entire Context from previious conversation
+    return res.json({
+        answer: response.data.answer,
+        references: response.data.references,
+    });
 }

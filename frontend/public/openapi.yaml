@@ -38,6 +38,9 @@ components:
         questionResponse:
             type: object
             properties:
-                advice:
+                answer:
                     type: string
                     description: advice from healthGod
+                references:
+                    type: string
+                    description: references of the sources which are used in the answer from healthGod
