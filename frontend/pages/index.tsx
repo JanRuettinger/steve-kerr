@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     const router = useRouter();
 
     useEffect(() => {
-        if (isLoaded || isSignedIn) {
+        if (isLoaded && isSignedIn) {
             // You can handle the loading or signed state separately
             router.push({
                 pathname: '/dashboard',
@@ -21,11 +21,12 @@ const Home: NextPage = () => {
     return (
         <Layout>
             <div className="w-2/3 mx-auto">
-                <h1 className="text-center">Landing Page</h1>
+                <h1 className="text-center text-4xl font-bold">Almighty</h1>
                 <div className="text-center mt-12">
-                    <Link href="/dashboard">
+                    <div>Lorem upsum blablabla</div>
+                    {/* <Link href="/dashboard">
                         <button className="bg-picton-blue-600 hover:bg-picton-blue-400 p-2 rounded-md text-white"></button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </Layout>

@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "HealthGod Plugin (no auth)",
+    "name_for_model": "healthGod",
+    "description_for_human": "Plugin for getting personalised health advice.",
+    "description_for_model": "Plugin for asking for health advise, you can ask questions regarding your physical and mental health",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://healthgod.xyz/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "https://healthgod.xyz/healthgod_plugin_logo.png",
+    "contact_email": "god@healthgod.xyz",
+    "legal_info_url": "https://healthgod.xyz/legal"
+}
