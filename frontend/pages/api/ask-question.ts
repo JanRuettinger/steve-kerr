@@ -28,7 +28,10 @@ export default async function POST(req: NextApiRequest, res: NextApiResponse) {
     const body = req.body;
     console.log(body);
     Todos.createTodo(body);
-    return res.send(200);
+    // return res.send(200);
+    return res.json({
+        advice: 'You are awesome',
+    });
 
     // Question
 

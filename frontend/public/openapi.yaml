@@ -19,6 +19,10 @@ paths:
             responses:
                 '200':
                     description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/questionResponse'
 components:
     schemas:
         addQuestionRequest:
@@ -30,3 +34,10 @@ components:
                     type: string
                     description: The question you need advice on.
                     required: true
+
+        questionResponse:
+            type: object
+            properties:
+                advice:
+                    type: string
+                    description: advice from healthGod
