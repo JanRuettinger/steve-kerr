@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
     return (
         <div className="flex flex-col h-screen container mx-auto">
             <Head>
-                <title>Dataleap</title>
+                <title>Almighty</title>
                 <meta name="description" content="" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
