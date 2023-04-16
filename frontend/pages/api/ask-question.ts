@@ -27,15 +27,15 @@ export default async function POST(req: NextApiRequest, res: NextApiResponse) {
     const body = req.body;
     console.log(body);
 
-    // const response = await axios({
-    //     method: 'post',
-    //     url: 'http://10.1.60.155:5001/answer',
-    //     data: {
-    //         question: body.question,
-    //         conversation_history: '',
-    //         session_id: 1,
-    //     },
-    // });
+    const response = axios({
+        method: 'post',
+        url: 'http://10.1.60.155:5001/answer',
+        data: {
+            question: body.question,
+            conversation_history: '',
+            session_id: 1,
+        },
+    });
     // console.log(response.data);
 
     // return res.json({
