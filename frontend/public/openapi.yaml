@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
     title: HealthGod Plugin
-    description: A plugin that allows the user to create and manage a TODO list using ChatGPT.
+    description: A plugin that allows the user to ask for personalised medical advice using ChatGPT.
     version: 'v1'
 servers:
     - url: https://healthgod.xyz
