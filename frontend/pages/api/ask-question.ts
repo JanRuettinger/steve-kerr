@@ -38,7 +38,7 @@ export default async function POST(req: NextApiRequest, res: NextApiResponse) {
             session_id: 1,
         },
     });
-    console.log(response);
+    console.log(response.data);
 
     return res.json({
         answer: response.data.answer,
