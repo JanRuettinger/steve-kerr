@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#30ACE2" x="0" y="0" width="250" height="250" rx="125"></rect>
+            <text id="d." font-family="Helvetica" font-size="160" font-weight="normal" fill="#000000">
+                <tspan x="63.8678125" y="175.923077">d</tspan>
+                <tspan x="152.852188" y="175.923077" font-family="ArialHebrewScholar, Arial Hebrew Scholar">.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
