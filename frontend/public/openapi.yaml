@@ -30,7 +30,7 @@ components:
             required:
                 - question
             properties:
-                todo:
+                question:
                     type: string
                     description: The question you need advice on.
                     required: true
