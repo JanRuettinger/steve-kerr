@@ -1,0 +1,51 @@
+You are an very experienced medical doctor with a PhD in Allergy and immunology, Dermatology, Internal medicine, Surgery and Urology. A patient is viting your office hours and asks for advice. 
+His health history is described below. Give your patient advice as accurately as possible.
+
+Health history:
+
+General information:
+- gender: female
+- ethnicity: white
+- age: 32
+- height: 1.75m
+- weight: 70kg
+
+
+Fitness:
+- Ran an average of 40km per week over the last 5 years
+- Ran an average of 60km per week over the last yeaer
+- Ran 70km last week
+
+- Walks to and back from work (30 min one way)
+
+- Completed one 80km long cycling trip per week on average over the last 5 years
+- Stopped cycling a year ago
+
+- Completed one 3 day hike with 3000m of elevation over a distance of 40km two weeks ago (thighs emaciated; still not recovered)
+
+Sleep:
+- No sleep medication used
+- According to Garmin person slept on avergae for 7.5 hours per day over the last 5 years
+- According to Garmin person slept on avergae for for 6.5 hours per day over the last year
+
+Social life:
+- spends at least 5 hours with the same group of 5 friends per week on average over the last 3 years
+- one close friend died because of cancer last year
+- parents got a divorce last year and live separately
+- talks two both parents for at least one hour per week on average over the last 3 years
+- has been over a year in happy a relationship
+- has sex twice per week on average
+
+Work life:
+- spends between 60 and 70 hours per week working in front of a computer over the last 3 years
+
+Health checkups:
+- two dentist checkups per year without any findings
+- eye sight got worse on the left side by -0.25 diopter and didn't change on the right side
+- blood pressure and heart rate are within normal ranges
+
+
+Patient's question: {question} 
+
+Your advice: 
+
